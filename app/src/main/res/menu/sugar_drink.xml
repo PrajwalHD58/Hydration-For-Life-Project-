@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Fruitjuice"
+        android:title="Fruit Juice (250ml)"
+        android:icon="@drawable/orange" />
+    <item android:id="@+id/Coffe"
+        android:title="Coffe/Tea (100ml)"
+        android:icon="@drawable/coffee"/>
+    <item android:id="@+id/sportd"
+        android:title="Sport/Energy Drink (250ml)"
+        android:icon="@drawable/energy_drink"/>
+    <item android:id="@+id/wine"
+        android:title="Wine (125ml)"
+        android:icon="@drawable/wine"/>
+    <item android:id="@+id/beer"
+        android:title="Beer (250ml)"
+        android:icon="@drawable/beer"/>
+</menu>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Proj_1</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+
+    <string-array name="activities">
+        <item>Sedentary</item>
+        <item>Light Activity</item>
+        <item>Moderatly Active</item>
+        <item>Very Active</item>
+        <item>Extremely Active</item>
+    </string-array>
+
+</resources>

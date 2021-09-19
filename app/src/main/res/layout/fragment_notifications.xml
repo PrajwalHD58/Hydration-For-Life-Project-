@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment"
+    android:background="#00001A">
+
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONFIGURE REMINDERS"
+            android:textSize="25dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#e6FBFF"
+            android:textStyle="bold"/>
+
+       <Switch
+           android:layout_marginTop="36dp"
+           android:id="@+id/simpleSwitch"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:text="Turn Reminder: On/Off "
+           android:layout_gravity="center_horizontal"
+           android:textSize="25dp"
+           android:background="#FFCCD5"/>
+       <!--displayed text of switch-->
+
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
+           android:elevation="10dp"
+           app:cardCornerRadius="10dp"
+           android:backgroundTint="#CCF7FF">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+       <TextView
+           android:layout_marginTop="24dp"
+           android:textColor="@color/black"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           android:text="Set up your Alarm Interval"
+           android:textSize="20dp"
+           />
+
+       <RadioGroup
+           android:layout_width="wrap_content"
+           android:layout_marginTop="12dp"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_marginLeft="24dp"
+           >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Every Half Hour"
+                android:textSize="20dp"/>
+
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Every One Hour"
+               android:textSize="20dp"/>
+
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Every two Hour"
+               android:textSize="20dp"/>
+
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Every three Hour"
+               android:textSize="20dp"/>
+       </RadioGroup>>
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Set Remainder"
+           android:id="@+id/remainder_set"
+           android:layout_gravity="center_horizontal"
+           android:backgroundTint="#F6CCFF"
+           android:textColor="@color/black"
+           />
+
+
+   </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
